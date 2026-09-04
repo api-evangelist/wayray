@@ -1,0 +1,46 @@
+# WayRay
+
+> WayRay AG was a Swiss deep-tech company (Zurich, founded 2012 by Vitaly Ponomarev) that built
+> holographic augmented-reality displays for vehicles. The Zurich probate court declared its
+> bankruptcy effective 14 August 2023 and the company has been in liquidation since. There is no
+> public API, developer portal, OpenAPI definition, MCP server or package-registry presence.
+
+<!--
+generated: 2026-09-04
+method: generated
+source: apis.yml + live probes of wayray.com (API Evangelist enrichment pipeline). Not published by WayRay.
+-->
+
+## Status
+
+- Bankrupt and in liquidation since 2023-08-14 (Zurich probate court). The site at wayray.com is a
+  static archive that is still served; the company behind it no longer operates.
+- The one developer surface WayRay ever announced — the **True AR SDK**, a C++ toolkit with an API,
+  emulator, simulator, docs and samples for Ubuntu 16.04/18.04 and macOS, launched 13 December 2018
+  and distributed from `www.wayray.com/sdk` — now returns HTTP 404. It was an embedded on-vehicle
+  SDK, not a web API.
+- No `/openapi.json`, `/swagger.json`, `/graphql`, `/llms.txt`, `/.well-known/*` document, MCP
+  endpoint or A2A agent card is served on any WayRay host. No GitHub organization exists at
+  `github.com/wayray`. No first-party package is published to npm, PyPI, or any other registry.
+
+## Products (marketing pages, archival)
+
+- [Deep Reality Display](https://wayray.com/deep-reality-display/): holographic optical element
+  laminated into a windshield, driven by an AR rendering engine.
+- [Technology](https://wayray.com/technology/): holographic optics, ARRE rendering engine, embedded
+  and add-on form factors.
+- [Holograktor](https://holograktor.com): WayRay's ride-hailing concept vehicle.
+
+## Company
+
+- [Press area](https://wayray.com/press-area/)
+- [Contacts](https://wayray.com/contacts/)
+- [Terms of use](https://wayray.com/terms/)
+- [Privacy policy](https://wayray.com/policy/)
+- [Blog (Medium)](https://medium.com/@WayRay)
+- [LinkedIn](https://www.linkedin.com/company/wayray/)
+
+## Optional
+
+- [Forge Global secondary-market listing](https://forgeglobal.com/wayray_stock/) — a third-party
+  venue page, not a WayRay property; it is how this company entered the harvest backlog.

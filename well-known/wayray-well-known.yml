@@ -1,0 +1,50 @@
+generated: '2026-09-04'
+method: probed
+source: >-
+  Direct HTTP probes of the named /.well-known/ path list on every host this record knows —
+  the registrable domain (wayray.com), its www host, and holograktor.com, the WayRay-owned
+  concept-vehicle brand linked from the company site. No API baseURL or OpenAPI servers[] host
+  exists for this company, so there are no further hosts to probe.
+note: >-
+  Every probed path returned 404. wayray.com is a static Gatsby marketing site left standing after
+  WayRay AG's 14 August 2023 bankruptcy in Zurich; its 404 handler serves the full SPA shell
+  (33,949 bytes of text/html) for every unmatched path, so no body here is a document. Two paths
+  (/api-docs, /apis.json) returned an nginx 403 rather than the SPA 404 — an edge rule, not a
+  served document. NO WellKnown or SecurityTxt pointer is emitted: this file records an absence.
+hosts:
+- host: wayray.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: www.wayray.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: holograktor.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
