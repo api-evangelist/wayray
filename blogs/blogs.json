@@ -1,0 +1,14 @@
+{
+  "repo": "wayray",
+  "feeds": [
+    {
+      "source": "https://wayray.com/policy/",
+      "feed_url": "https://wayray.com/policy/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-06T19:17:18Z"
+}
